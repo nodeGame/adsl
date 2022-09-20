@@ -23,18 +23,19 @@
 # EXERCISE 1 Indentation.
 #########################
 
-# a. Select all the code below and press the combination of keys to 
-# correctly indent your code. What combination? It depends on your 
-# operating system! 
+# a. Select all the code below and press the combination of keys to
+# correctly indent your code. What combination? It depends on your
+# operating system!
 # On Windows : Shift + Alt + F
 # On Mac : Shift + Option + F
 # On Linux : Ctrl + Shift + I
 
-a=1234
-a=a+1
-if a > 123: 
-    a=a-1
-else: a=a+1
+a = 1234
+a = a+1
+if a > 123:
+    a = a-1
+else:
+    a = a+1
 print(a)
 
 
@@ -62,11 +63,11 @@ print(a)
 # Below is some code with some errors and warnings. Below the error
 # there should be a red line. If you hover over the line, you will
 # get additional information about the error. In addition, all the
-# errors are available in a separate panel at the bottom of the page 
+# errors are available in a separate panel at the bottom of the page
 # (bottom left, look for an x inside a circle).
 
 # Start fixing the first error, more errors might pop up, because the first
-# error was blocking the execution of the code inspection 
+# error was blocking the execution of the code inspection
 # (and of the auto-formatting).
 
 # If you don't know how to fix an error, just comment out the line with #.
@@ -77,15 +78,17 @@ print(a)
 # Hint: follow the pattern.
 a = 1
 b = 2
-c.= 3
+c = 3
 
 # Hint: Check the tooltip.
-def notUsed()
+
+
+def notUsed():
     print('Hello!')
 
 
 # EXERCISE 3. Producticity: Shorcuts and More.
-#/
+# /
 # Proficient programmers use the mouse as little as possible, and try
 # to do everything with the keyboard. It is actually possible to code
 # without using the mouse at all, but we are still far from that point.
@@ -93,13 +96,13 @@ def notUsed()
 
 # a. Comment out useless code with Ctrl-/. Notice if you applied the
 # command multiple times, it will uncomment/comment/uncomment... it.
-uselessCode = 'I am useless'
+# uselessCode = 'I am useless'
 
 # c. Cool. What other shorcuts are available? Here is a shortcut to find
 # them all. Ctrl-Shift-P. Look around and remember how to get here,
 # we will use it later.
 
-# d. It would great if we could have a clone of ourselves, or even better 
+# d. It would great if we could have a clone of ourselves, or even better
 # multiple clones. It turns out that you can do it in VS Code! Highlight
 # the word "not". Then press Ctrl-D as many times as needed to highlight
 # all the next occurrences of the word "not". At every word "not" there is
@@ -107,9 +110,9 @@ uselessCode = 'I am useless'
 # and replace the explanation mark with a sad face. Press Esc to eliminate
 # multiple cursors.
 
-catchMeIfYouCan1 = 'You did not catch me!'
-catchMeIfYouCan2 = 'You did not catch me!'
-catchMeIfYouCan3 = 'You did not catch me!'
+catchMeIfYouCan1 = 'You did catch me :('
+catchMeIfYouCan2 = 'You did catch me :('
+catchMeIfYouCan3 = 'You did catch me :('
 
 
 # EXERCISE 4. Bracket Matching.
@@ -123,7 +126,7 @@ catchMeIfYouCan3 = 'You did not catch me!'
 # get familiar with the VS Code built-in "Bracket Matcher" utility.
 
 # a. Position yourself after the closing curly bracket of the following
-# if statement (it is the second parenthesis). Does the opening curly 
+# if statement (it is the second parenthesis). Does the opening curly
 # bracket get highlighted?
 
 a = 1
@@ -135,7 +138,7 @@ if (a*2 + (c/(b+1))) > 1:
 
 # b. That was easy. In more complicated cases, you might want to use a
 # keyboard shortcut. Yes, but which one? You can search for "Go to bracket"
-# in the menu of all VS Code commands. How do you open that menu? If you don't 
+# in the menu of all VS Code commands. How do you open that menu? If you don't
 # remember, go back to exercise 3.d.
 
 # c. Make sure to have the extension Rainbow Brackets installed for extra help.
